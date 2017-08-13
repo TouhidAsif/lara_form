@@ -23,7 +23,7 @@ class todocontroller extends Controller
      */
     public function create()
     {
-        //
+        return view('todo.create');
     }
 
     /**
