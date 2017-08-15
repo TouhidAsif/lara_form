@@ -13,7 +13,7 @@
    
    <li class="list-group-item">
        
-       {{$todo->body}}
+       {{ucfirst($todo->body)}}
        <span class="pull-right">{{$todo->created_at->diffForHumans()}}</span>
         </li>
    @endforeach
